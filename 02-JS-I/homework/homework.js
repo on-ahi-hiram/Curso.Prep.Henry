@@ -144,14 +144,8 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
- // se puede hacer
- // return Math.pow(num, exponent) 
- // o se puede usar un bucle for 
- var expo = 1
- for (i = 0; i< exponent; i++) {
-   expo = expo * num
- }
- return expo 
+ return Math.pow(num, exponent) 
+ 
 }
 
 function redondearNumero(num) {
